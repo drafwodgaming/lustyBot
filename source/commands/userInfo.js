@@ -44,7 +44,7 @@ module.exports = {
      * ! ПЕРЕМЕННЫЕ: ПОЛЬЗОВАТЕЛЯ
      * ! --------------------------------
      */
-    const targetUser = options.getMember(userInfo.userOption.name) || member;
+    const targetUser = options.getMember(userInfo.userOption) || member;
 
     const profileBuffer = await profileImage(targetUser.id, {
       badgesFrame: true,

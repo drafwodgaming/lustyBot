@@ -1,81 +1,81 @@
 {
   "commands": {
     "automod": {
-      "description": "Setup auto mod system",
-      "spamMessages": "Block messages suspected of spam",
-      "spamMessagesRuleName": "Block spam messages",
-      "spamMentions": "Block messages containng a certain amount of mention",
-      "spamMentionsNumber": "The number of mentions required to block a message",
-      "spamMentionsRuleName": "Block mention spam",
-      "loadingRule": "Loading your automod rule ...",
-      "spamMessagesCreated": "Your automod rule has been created - all spam will be stopped by Lusty Bot",
-      "blockMessage": "This is message was blocked by Lusty Bot"
+      "description": "Настройка автомод системы",
+      "spamMessages": "Блокировать сообщения содержащие спам",
+      "spamMessagesRuleName": "Блокирование спама сообщений",
+      "spamMentions": "Блокировать сообщения содержащие спам упоминаний",
+      "spamMentionsNumber": "Количество упоминаний, необходимое для блокировки сообщения",
+      "spamMentionsRuleName": "Блокирование спама упоминаний",
+      "loadingRule": "Загрузка твоего правила ...",
+      "spamMessagesCreated": "Твоё правило автомода было создано - все спам сообщения будут блокироваться ботом Lusty",
+      "blockMessage": "Это сообщение было заблокировано ботом Lusty"
     },
     "help": {
-      "title": "Commands menu",
-      "description": "Get the commands for Lusty"
+      "title": "Меню комманд",
+      "description": "Показать все команды бота"
     },
     "serverInfo": {
-      "title": "About server",
-      "description": "View the server information",
-      "generalLabel": "General",
-      "guildName": "Name: %guildName",
-      "owner": "Owner: %ownerId",
-      "createdAt": "Created at: %guildCreatedAt",
-      "guildDescription": "Description: %guildDescription",
-      "totalGuildMembersCount": "Members [ %memberCount ]",
-      "guildMembersCount": "Users: %guildMembers",
-      "guildBotsCount": "Bots: %botsNumber",
-      "totalChannelsCount": "Channels [ %guildChannels ]",
-      "guildTextChannelsCount": "Text: %textChannels",
-      "guildVoiceChannelsCount": "Voice: %voiceChannels",
-      "guildCategoriesCount": "Categories: %guildCategories",
-      "totlaEmojisCount": "Emojis [ %emojiCount ]",
-      "animatedEmojisCount": "Animate: %emojisAnimate",
-      "staticEmojisCount": "Static: %emojisStatic",
-      "rolesCount": "Roles [ %guildRolesLength ]"
+      "title": "О сервере",
+      "description": "Показать информацию о сервере",
+      "generalLabel": "Основное",
+      "guildName": "Название: %guildName",
+      "owner": "Создатель: %ownerId",
+      "createdAt": "Создан: %guildCreatedAt",
+      "guildDescription": "Описание: %guildDescription",
+      "totalGuildMembersCount": "Участники [ %memberCount ]",
+      "guildMembersCount": "Люди: %guildMembers",
+      "guildBotsCount": "Боты: %botsNumber",
+      "totalChannelsCount": "Каналы [ %guildChannels ]",
+      "guildTextChannelsCount": "Текстовые: %textChannels",
+      "guildVoiceChannelsCount": "Голосовые: %voiceChannels",
+      "guildCategoriesCount": "Категории: %guildCategories",
+      "totlaEmojisCount": "Эмодзи [ %emojiCount ]",
+      "animatedEmojisCount": "Анимированные: %emojisAnimate",
+      "staticEmojisCount": "Статичные: %emojisStatic",
+      "rolesCount": "Роли [ %guildRolesLength ]"
     },
     "userInfo": {
-      "description": "View the user information",
-      "userOption": "Users",
-      "title": "About User",
-      "createdAt": "Created",
+      "description": "Показать информацию о пользователе",
+      "userOption": "Пользователи",
+      "title": "О пользователе",
+      "createdAt": "Создан",
       "createdTime": "%createdAt",
-      "statusLabel": "Status",
+      "statusLabel": "Статус",
       "userStatus": "%statusList",
       "badges": "%userBadges",
-      "joinedAt": "Joined",
+      "joinedAt": "Вошёл на сервер",
       "joinedTime": "%memberJoinedTime",
-      "memberRoles": "Roles",
-      "emptyRolesList": "no roles"
+      "memberRoles": "Роли",
+      "emptyRolesList": "нет ролей"
     },
     "welcomeChannel": {
-      "editedChannel": "Welcome channel was changed at %channelId",
-      "installedChannel": "Welcome channel was set at %channelId. To disable run /welcomechannel disable",
-      "deletedChannel": "Welcome channel was deleted",
+      "editedChannel": "Канал приветствия был изменён на %channelId",
+      "installedChannel": "Канал приветствия был установлен на %channelId. Чтобы отключить введите /welcomechannel disable",
+      "deletedChannel": "Канал приветствия был удалён",
       "selectWelcomeChannel": "Select channel for welcome message",
       "setupChannel": "Setup channel for welcome message",
       "disableChannel": "Disable channel for welcome message",
       "channelOption": "Setup channel for welcome message"
     },
     "leaveChannel": {
-      "editedChannel": "Leave channel was changed at %channelId",
-      "installedChannel": "Leave channel was set at %channelId. To disabled run /leavechannel disable",
-      "deletedChannel": "Leave channel was deleted"
+      "editedChannel": "Канал прощания был изменён на %channelId",
+      "installedChannel": "Канал прощания был установлен на %channelId. Чтобы отключить введите /leavechannel disable",
+      "deletedChannel": "Канал прощания был удалён"
     },
     "logChannel": {
-      "editedChannel": "Log channel was changed at %channelId",
-      "installedChannel": "Log channel was set at %channelId. To disable run /logchannel disable",
-      "deletedChannel": "Log channel was deleted",
+      "editedChannel": "Канал для логов был изменён на %channelId",
+      "installedChannel": "Канал для логов был установлен на %channelId. Чтобы отключить введите /logchannel disable",
+      "deletedChannel": "Канал для логов был удалён",
       "selectLogChannel": "Select channel for log message",
       "setupChannel": "Setup channel for log message",
       "disableChannel": "Disable channel for log message",
       "channelOption": "Setup channel for log message"
     },
     "autoRole": {
-      "editedRole": "Autorole was changed at %roleId",
-      "installedRole": "Autorole was set at %roleId. To disable run /autorole disable",
-      "deletedRole": "Autorole was deleted"
+      "editedRole": "Автоматическая роль была изменена на %roleId",
+      "installedRole": "Автоматическая роль была установлена на %roleId. Чтобы отключить введитеn /autorole disable",
+      "deletedRole": "Автоматическая роль была удалена"
     }
   },
   "components": {

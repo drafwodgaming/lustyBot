@@ -57,7 +57,7 @@ async function cardLeaveMessage(member) {
 
   const imageAttachment = new AttachmentBuilder(
     canvas.toBuffer("image/png"),
-    botConfig.memberCard.attachment.leave
+    botConfig.memberCard.leave
   );
   return imageAttachment;
   //#endregion

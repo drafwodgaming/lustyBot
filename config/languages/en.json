@@ -79,7 +79,11 @@
     "autoRole": {
       "editedRole": "Autorole was changed at %roleId",
       "installedRole": "Autorole was set at %roleId. To disable run /autorole disable",
-      "deletedRole": "Autorole was deleted"
+      "deletedRole": "Autorole was deleted",
+      "selectAutorole": "Select autorole",
+      "setupAutorole": "Setup autorole",
+      "disableAutorole": "Disable autorole",
+      "roleOption": "Setup autorole"
     }
   },
   "components": {

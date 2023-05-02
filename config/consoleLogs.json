@@ -1,0 +1,6 @@
+{
+  "unhandledRejection": "[ERROR:UNHANDLED PROMISE REJECTION] ❯",
+  "uncaughtException": "[ERROR:UNHANDLED_PROMISE EXCEPTION] ❯",
+  "succesMongoDBTitle": "[DATABASE STATUS] ❯",
+  "dbConnected": "Connected"
+}

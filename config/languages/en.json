@@ -1,0 +1,125 @@
+{
+  "commands": {
+    "automod": {
+      "description": "Setup auto mod system",
+      "spamMessages": "Block messages suspected of spam",
+      "spamMessagesRuleName": "Block spam messages",
+      "spamMentions": "Block messages containng a certain amount of mention",
+      "spamMentionsNumber": "The number of mentions required to block a message",
+      "spamMentionsRuleName": "Block mention spam",
+      "loadingRule": "Loading your automod rule ...",
+      "spamMessagesCreated": "Your automod rule has been created - all spam will be stopped by Lusty Bot",
+      "blockMessage": "This is message was blocked by Lusty Bot"
+    },
+    "help": {
+      "title": "Commands menu",
+      "description": "Get the commands for Lusty"
+    },
+    "serverInfo": {
+      "title": "About server",
+      "description": "View the server information",
+      "generalLabel": "General",
+      "guildName": "Name: %guildName",
+      "owner": "Owner: %ownerId",
+      "createdAt": "Created at: %guildCreatedAt",
+      "guildDescription": "Description: %guildDescription",
+      "totalGuildMembersCount": "Members [ %memberCount ]",
+      "guildMembersCount": "Users: %guildMembers",
+      "guildBotsCount": "Bots: %botsNumber",
+      "totalChannelsCount": "Channels [ %guildChannels ]",
+      "guildTextChannelsCount": "Text: %textChannels",
+      "guildVoiceChannelsCount": "Voice: %voiceChannels",
+      "guildCategoriesCount": "Categories: %guildCategories",
+      "totlaEmojisCount": "Emojis [ %emojiCount ]",
+      "animatedEmojisCount": "Animate: %emojisAnimate",
+      "staticEmojisCount": "Static: %emojisStatic",
+      "rolesCount": "Roles [ %guildRolesLength ]"
+    },
+    "userInfo": {
+      "description": "View the user information",
+      "userOption": "Users",
+      "title": "About User",
+      "createdAt": "Created",
+      "createdTime": "%createdAt",
+      "statusLabel": "Status",
+      "userStatus": "%statusList",
+      "badges": "%userBadges",
+      "joinedAt": "Joined",
+      "joinedTime": "%memberJoinedTime",
+      "memberRoles": "Roles",
+      "emptyRolesList": "no roles"
+    },
+    "welcomeChannel": {
+      "editedChannel": "Welcome channel was changed at %channelId",
+      "installedChannel": "Welcome channel was set at %channelId. To disable run /welcomechannel disable",
+      "deletedChannel": "Welcome channel was deleted",
+      "selectWelcomeChannel": "Select channel for welcome message",
+      "setupChannel": "Setup channel for welcome message",
+      "disableChannel": "Disable channel for welcome message",
+      "channelOption": "Setup channel for welcome message"
+    },
+    "leaveChannel": {
+      "editedChannel": "Leave channel was changed at %channelId",
+      "installedChannel": "Leave channel was set at %channelId. To disabled run /leavechannel disable",
+      "deletedChannel": "Leave channel was deleted"
+    },
+    "logChannel": {
+      "editedChannel": "Log channel was changed at %channelId",
+      "installedChannel": "Log channel was set at %channelId. To disable run /logchannel disable",
+      "deletedChannel": "Log channel was deleted",
+      "selectLogChannel": "Select channel for log message",
+      "setupChannel": "Setup channel for log message",
+      "disableChannel": "Disable channel for log message",
+      "channelOption": "Setup channel for log message"
+    },
+    "autoRole": {
+      "editedRole": "Autorole was changed at %roleId",
+      "installedRole": "Autorole was set at %roleId. To disable run /autorole disable",
+      "deletedRole": "Autorole was deleted"
+    }
+  },
+  "components": {
+    "modals": {
+      "customBackground": {
+        "label": "BACKGROUND",
+        "placeholder": "Custom Background"
+      }
+    }
+  },
+  "events": {
+    "developerOnly": "This command may only be used by the developer",
+    "logChannelWelcome": {
+      "title": "User Joined",
+      "description": "User : %userName",
+      "createdAt": "Created at : %guildCreatedAt"
+    },
+    "logMessageDelete": {
+      "title": "Message deleted",
+      "description": {
+        "channelName": "Channel : %channelName (%channelId)",
+        "deletedBy": "Deleted by : %executor"
+      },
+      "fields": {
+        "name": "Message"
+      }
+    }
+  },
+  "time": {
+    "moment": {
+      "momentLocale": "en",
+      "momentWeekList": "Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday"
+    },
+    "defaultTimeFormat": "dddd, DD.MM.YYYY HH:mm"
+  },
+  "logs": {
+    "errors": {
+      "errorCallCommand": "There was an error while executing this command! If this error continues, please contact us!"
+    }
+  },
+  "presence": {
+    "online": "Online",
+    "idle": "Idle",
+    "offline": "Offline",
+    "dnd": "Do not Disturb"
+  }
+}

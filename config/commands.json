@@ -1,0 +1,44 @@
+{
+  "automod": {
+    "name": "automod",
+    "spamMessages": "spam-messages",
+    "spamMentions": "spam-mentions",
+    "spamMentionsNumber": "number"
+  },
+  "help": {
+    "name": "help"
+  },
+  "serverInfo": {
+    "name": "serverinfo"
+  },
+  "userInfo": {
+    "name": "userinfo",
+    "userOption": "user"
+  },
+  "settings": {
+    "welcomeChannel": {
+      "name": "welcomechannel"
+    },
+    "leaveChannel": {
+      "name": "leavechannel"
+    },
+    "logChannel": {
+      "name": "logchannel"
+    },
+    "autoRole": {
+      "name": "autorole"
+    },
+    "setup": {
+      "name": "setup"
+    },
+    "disable": {
+      "name": "disable"
+    },
+    "channelOption": {
+      "name": "channel"
+    },
+    "roleOption": {
+      "name": "role"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modals": {
+    "customBackground": "customBackground",
+    "customTag": "customTag"
+  },
+  "menus": {
+    "customCreateProfile": "customCreateProfile"
+  }
+}

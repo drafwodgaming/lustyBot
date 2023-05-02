@@ -57,7 +57,7 @@ async function cardWelcomeMessage(member) {
 
   const imageAttachment = new AttachmentBuilder(
     canvas.toBuffer("image/png"),
-    botConfig.memberCard.attachment.welcome
+    botConfig.memberCard.welcome
   );
   return imageAttachment;
   //#endregion

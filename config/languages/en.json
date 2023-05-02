@@ -61,7 +61,11 @@
     "leaveChannel": {
       "editedChannel": "Leave channel was changed at %channelId",
       "installedChannel": "Leave channel was set at %channelId. To disabled run /leavechannel disable",
-      "deletedChannel": "Leave channel was deleted"
+      "deletedChannel": "Leave channel was deleted",
+      "selectLeaveChannel": "Select channel for leave message",
+      "setupChannel": "Setup channel for leave message",
+      "disableChannel": "Disable channel for leave message",
+      "channelOption": "Setup channel for leave message"
     },
     "logChannel": {
       "editedChannel": "Log channel was changed at %channelId",

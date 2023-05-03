@@ -1,20 +1,20 @@
 const { SlashCommandBuilder, bold } = require("discord.js");
 const { embedSetup } = require("../functions/embedSetup");
-const en = require("../../config/languages/en.json");
-const ru = require("../../config/languages/ru.json");
 const botColors = require("../../config/botColors.json");
 const { help } = require("../../config/commands.json");
 const locales = require("../../config/locales");
 
+const commandDescription = {
+  "en-US": locales["en-US"].commands.help.description,
+  "en-GB": locales["en-GB"].commands.help.description,
+  ru: locales["ru"].commands.help.description,
+};
+
 module.exports = {
-  //#region SlashCommandBuilder
   data: new SlashCommandBuilder()
     .setName(help.name)
-    .setDescription(en.commands.help.description)
-    .setDescriptionLocalizations({
-      ru: ru.commands.help.description,
-    }),
-  //#endregion
+    .setDescription(commandDescription["en-US"])
+    .setDescriptionLocalizations(commandDescription),
   async execute(interaction) {
     const { locale } = interaction;
     const embedTitle = locales[locale].commands.help.title;
